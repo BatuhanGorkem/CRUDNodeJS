@@ -1,0 +1,23 @@
+{
+  "name": "photocrud",
+  "version": "1.0.0",
+  "description": "Nodejs crud",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "photo",
+    "camera",
+    "app"
+  ],
+  "author": "Batuhan Görkem",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.3",
+    "nodemon": "^2.0.16"
+  }
+}
